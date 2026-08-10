@@ -68,10 +68,9 @@ struct CheckoutView: View {
                         TextField("Kupon kodunu buraya yapıştırın", text: $couponCode)
                             .textInputAutocapitalization(.never)
                             .disableAutocorrection(true)
-                            .onChange(of: couponCode) { newValue in
+                            .onChange(of: couponCode) { oldValue, newValue in
                                 tryApplyCoupon(newValue)
                             }
-                        
                         if appliedCoupon != nil {
                             Button(action: removeCoupon) {
                                 Image(systemName: "xmark.circle.fill")
