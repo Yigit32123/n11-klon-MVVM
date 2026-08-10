@@ -10,7 +10,7 @@ struct CartItem: Identifiable, Codable {
     var quantity: Int
 }
 //  CartItem.swift
-//
+//  N11
 //  Created by yigit.korkmaz on 6.08.2026.
 //
 

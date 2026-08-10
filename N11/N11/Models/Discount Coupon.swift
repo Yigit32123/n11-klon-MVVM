@@ -53,7 +53,7 @@ struct DiscountCoupon: Codable, Identifiable, Equatable {
     var isUsed: Bool = false
 }
 //  Discount Coupon.swift
-//  ETdeneme
+//  N11
 //
 //  Created by yigit.korkmaz on 6.08.2026.
 //

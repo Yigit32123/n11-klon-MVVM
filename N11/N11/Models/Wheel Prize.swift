@@ -21,7 +21,7 @@ let wheelPrizes: [WheelPrize] = [
     WheelPrize(label: "%25", codePrefix: "P25")
 ]
 //  Wheel Prize.swift
-//  ETdeneme
+//  N11
 //
 //  Created by yigit.korkmaz on 6.08.2026.
 //
